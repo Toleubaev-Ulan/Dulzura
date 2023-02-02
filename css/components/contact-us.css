@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../fonts/Lobster/Lobster-Regular.ttf');
+}
+
+.contact-us {
+    padding: 0.5% 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+}
+
+.contact-item h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lobster';
+    font-size: 36px;
+    color: rgb(245, 151, 148);
+    text-align: center;
+}
+
+.contact-item input {
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10px;
+    margin-top: 20px;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 1px 0 #acb1b9;
+}
+
+.contact-item input:hover {
+    box-shadow: 0 2px 2px 0 rgb(245, 151, 148);
+}
+
+.contact-item textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    margin-top: 20px;
+    width: 90%;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 1px 0 #acb1b9;
+}
+
+.contact-item textarea:hover {
+    box-shadow: 0 2px 2px 0 rgb(245, 151, 148);
+}
+
+.contact-item button {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 1.7% 5%;
+    border-radius: 10px;
+    background-color: rgb(245, 151, 148);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.contact-item button:hover {
+    background-color: rgb(230, 165, 162);
+}

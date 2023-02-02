@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../fonts/Lobster/Lobster-Regular.ttf');
+}
+
+.menu {
+    padding: 1.5% 7%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.menu-header::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    left: 0;
+    width: 43%;
+}
+
+.menu-header::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    right: 0;
+    width: 43%;
+}
+
+.menu-header h2 {
+    font-family: 'Lobster';
+    font-size: 36px;
+    color: rgb(245, 151, 148);
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list h3 {
+    font-family: 'Lobster';
+    font-size: 24px;
+    color: rgb(245, 151, 148);
+    margin-bottom: 10px;
+}
+
+.menu-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-left, .menu-right {
+    width: calc(50% - 30px);
+}
+
+.menu-left ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-right ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list .price {
+    color: rgb(245, 151, 148);
+}
+
+

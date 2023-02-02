@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../fonts/Lobster/Lobster-Regular.ttf')
+}
+
+.about-us {
+    margin-top: 30px;
+    background-image: url('../../img/about-us.jpeg');
+    background-size: cover;
+}
+
+.about-us h2 {
+    font-family: 'Lobster';
+    font-size: 36px;
+    padding: 30px 0 10px 0;
+    color: rgb(245, 151, 148);
+    text-align: center;
+}
+
+.about-us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 1% 7%;
+    color: #fff;
+}

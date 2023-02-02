@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../fonts/Lobster/Lobster-Regular.ttf');
+}
+
+.products {
+    padding: 1.5% 7%;
+}
+
+.products-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.products-header::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    left: 0;
+    width: 43%;
+}
+
+.products-header::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    right: 0;
+    width: 43%;
+}
+
+.products-header h2 {
+    font-family: 'Lobster';
+    font-size: 36px;
+    color: rgb(245, 151, 148);
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.filter ul {
+    display: flex;
+    gap: 15px;
+}
+
+.filter li {
+    display: flex;
+    position: relative;
+    padding: 5px 0px;
+    border-bottom: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.filter li:first-child::after {
+    width: 100%;
+}
+
+.filter li::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: rgb(245, 151, 148);
+    bottom: 0;
+    left: 0;
+    transition: .4s;
+}
+
+.filter li:hover::after {
+    width: 100%;
+}
+
+.product-main-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.product-item {
+    width: 24%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.product-item img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-item h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.product-item p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(245, 151, 148);
+    margin-bottom: 15px;
+}
+
+.product-item:hover {
+    box-shadow: 0 6px 6px 0 rgb(245, 151, 148);
+}
+
+

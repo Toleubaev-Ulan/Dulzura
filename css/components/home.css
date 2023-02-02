@@ -1,0 +1,46 @@
+.container {
+    background-color: #f5f7f8;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.home {
+    padding: 1.5% 7%;
+}
+
+.home-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-item-top {
+    margin-bottom: 15px;
+}
+
+.home-item-left{
+    width: 65%;
+}
+
+.home-item-left img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+
+
+.home-item-right {
+    width: 35%;
+    
+}
+
+.home-item-right img {
+    width: 100%;
+    max-height: 190px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+
+

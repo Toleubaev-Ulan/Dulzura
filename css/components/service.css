@@ -1,0 +1,46 @@
+.service {
+    padding: 1.5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 20px; 
+}
+
+.service-item {
+    width: 25%;
+    background-color: #fff;
+    padding: 2.5% 5%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.service-item img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.service-item h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5F6368;
+    margin-bottom: 5px;
+}
+
+.service-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9CA3AF;
+}
+
+.service-item:hover {
+    box-shadow: 0 6px 6px 0 rgb(245, 151, 148);
+}
+
+.service-item .pink-color {
+    filter: invert(79%) sepia(85%) saturate(2031%) hue-rotate(301deg) brightness(101%) contrast(91%);
+}
+

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../fonts/Lobster/Lobster-Regular.ttf');
+}
+
+.our-reviews {
+    padding: 1.5% 7%;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.reviews-header::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    left: 0;
+    width: 43%;
+}
+
+.reviews-header::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    border: 1px solid #e5e7eb;
+    right: 0;
+    width: 43%;
+}
+
+.reviews-header h2 {
+    font-family: 'Lobster';
+    font-size: 36px;
+    color: rgb(245, 151, 148);
+    text-align: center;
+}
+
+.reviews-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.reviews-item img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.reviews-left, .reviews-right {
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+.reviews-item h6 {
+    font-family: 'Lobster';
+    font-size: 24px;
+    color: #5F6368;
+    margin-bottom: 5px;
+}
+
+.reviews-item span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 151, 148);
+}
+
+.reviews-item p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #9CA3AF;
+    margin-top: 5px;
+}
